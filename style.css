@@ -1,6 +1,104 @@
-@font-face {
-    font-family: 'Iransans';
-    src: url('IRANSansWeb(FaNum)_Bold.woff2') format:('woff2');
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+a {
+    text-decoration: none !important;
+    color: #313131 !important;
+    outline: none!important;
 }
 i {
     background: transparent !important;
@@ -13,21 +111,8 @@ button {
     user-select: none;          /* Likely future */
 }
 body {
-    font:12px Tahoma;
-    background: #f3f3f3;
-    color: #444;
-}
-li {
-    list-style: none;
-}
-a {
-    text-decoration: none !important;
-    color: #313131 !important;
-    outline: none!important;
-    transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -moz-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
+    font-family:IRANSans-web !important;
+    background: #fcfdff;
 }
 .p0 {
     padding: 0!important;
@@ -46,24 +131,16 @@ a {
 }
 .menu-top{
     float: right;
-    display: block;
-    text-align: center;
-    font-size: 10px 'Iransans',Tahoma  ;
+    font-size: 10px;
     height: auto;
     margin-top: 25px;
     line-height: 3;
 }
 .menu-top ul li{
-    display: inline-block;
     float: right;
     height: auto;
     list-style: none;
     border-left: #d6d3d3 1px solid;
-    color: #fdfdfd;
-}
-.menu-top ul li a {
-    display: block;
-    color: #fdfdfd;
 }
 .menu-top ul li:last-child{
     border: none;
@@ -73,9 +150,11 @@ a {
     font-size: 10px;
     color: #5c6672;
     height: auto;
+	    transition: all 0.1s ease;
 }
 .top-menu-list:hover{
     color: #fd5252;
+    transition: all 0.1s ease;
 }
 .menu-top i{
     font-size:20px;
@@ -94,7 +173,7 @@ a {
     float: right;
     background: transparent;
 }
-.input{
+.search input{
     float: right;
     border-radius:0 10px 10px 0;
     border: #E0E0E0 1px solid;
@@ -104,7 +183,7 @@ a {
     padding: 0 10px !important;
     border-left: none;
 }
-.button{
+.search button{
     float: left;
     border-radius: 10px 0 0 10px;
     outline:none;
@@ -114,38 +193,34 @@ a {
     background: #fd5252;
     padding-top:5px;
     height: 35px;
+	    transition: all 0.4s ease;
+
 }
-.button i{
+.search button i{
     font-size: 17px;
 }
-.button:hover{
+.search button:hover{
     color: #fd5252;
     background: #e8e8e8;
     transition: all 0.4s ease;
 }
 .main-menu{
-    float: right;
-    font-size: 10px 'Iransans';
+    float: left;
     height: auto;
-    line-height: 3;
+}
+.main-menu ul{
+    margin: 0;
 }
 .main-menu ul li{
+    list-style: none;
     float: left;
     text-align: center;
-    display: inline-block;
-    height: auto;
-    list-style: none;
-    border-left: #d6d3d3 1px solid;
-    color: #fdfdfd;
+    border-left: 1px #d6d3d3 solid;
+    font-size: 11px;
 }
 .main-menu-inner{
     padding: 10px 0 !important;
-    display: block;
-    color: #fdfdfd;
-    text-align: center;
-    font-size: 10px;
-    color: #5c6672;
-    height: auto;
+	    transition: all 0.4s ease;
 }
 .main-menu ul li:first-child{
     border-left: none;
@@ -338,16 +413,13 @@ a {
     height: auto;
     padding: 0!important;
     margin: 4px 0!important;
-    font-size: 10px 'Iransans';
-    line-height: 3;
 }
 .slider-menu ul {
+    list-style: none;
     height: auto;
     margin: 0;
 }
 .slider-menu ul li {
-    display: inline-block;
-    list-style: none;
     text-align: center;
     font-size: 11px;
     float: right;
@@ -357,7 +429,6 @@ a {
     border-bottom: #e1e1e1 1px solid;
 }
 .slider-menu-in{
-    display: block;
     padding: 10px 0;
 }
 .slider-menu-in:hover {
@@ -744,11 +815,11 @@ a {
 .tittle-post {
   direction: rtl;
   float: right;
-    font: 18px 'Iransans','Myriad Pro'!important;
-  padding: 5px 20px!important;
+  padding: 10px 20px!important;
 }
 .tittle-post i {
     padding-left: 10px;
+    font-size: 18px;
     line-height: 20px;
 }
 .Blank-Div {
@@ -797,7 +868,6 @@ a {
   padding: 5px 15px!important;
 }
 .post-story {
-    text-align: justify;
   background-color: #fafafa;
   direction: rtl;
   padding: 10px!important;
