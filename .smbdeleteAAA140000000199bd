@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- SLICK -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+    <!-- font icons-->
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    
+    <!-- SCRIPT -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    
+</head>
+<body>
+    <div class="container">
+
+      <!-- header -->
+
+    
+        
+      <div class="row header p0">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 logo p0">
+        		<a href="#">
+          		<img src="img\logo.png" class="img-responsive" alt="logo">
+          		</a>
+    		  </div>
+     		  <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 menu-top p0">
+          		<ul class="p0" >
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
+                        <a href="#">
+                            <div class="top-menu-list">
+                                <i class="icon-home32"></i><br>
+                                صفحه نخست</div>
+                        </a>
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
+                 		<a href="#">
+                   		<div class="top-menu-list">
+                     		<i class="icon-vimeo2"></i><br>
+                   				VIP اشتراک</div>
+                 		</a>
+               		</li>
+               		<li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
+                   		<a href="#">
+                     		<div class="top-menu-list">
+                       		<i class="icon-enter"></i><br>
+                            پنل کاربری</div>
+                   		</a>
+               		</li>
+               		<li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
+                   		<a href="#">
+                     		<div class="top-menu-list">
+                     			<i class="icon-clipboard2"></i><br>
+                   	      ثبت نام</div>
+                   		</a>
+               		</li>
+               		<li  class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
+                   		<a href="#">
+                     		<div class="top-menu-list">
+                     			<i class="icon-download"></i><br>
+                                آدرس یاب</div>
+                   		</a>
+               		</li>
+               		<li  class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
+                   		<a href="#">
+                     		<div class="top-menu-list">
+                     			<i class="icon-users3"></i><br>
+             				       تماس با ما</div>
+                   		</a>
+               		</li>
+           		</ul>
+   		    </div>
+      </div>
+          
+      <!-- menu -->
+      <div class="row menu p0">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 search">
+                    <form action="#" method="post">
+                        <input class="col-lg-10 col-md-10 col-sm-10 col-xs-9 input p0" type="text" placeholder=" ...جستجو  ">
+                        <button class="col-lg-2 col-md-2 col-sm-2 col-xs-3 button" type="submit">
+                    	<i class="icon-search7"></i>
+                </button>
+            </form>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 main-menu p0">
+            <ul class="p0">
+                <a href="">
+                  <li style="border-left: none" class="col-lg-2 col-md-2 col-sm-2 col-xs-4 ">HOME</li></a>
+                <a href="">
+                  <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 ">FROUM</li>
+                </a>
+                <a href="">
+                  <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 ">MEMBERSHIP</li>
+                </a>
+                <a href="">
+                  <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 ">MOVIE</li>
+                </a>
+                <a href="">
+                  <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 ">TV SEREIS</li>
+                </a>
+                <a href="">
+                  <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 ">ARCHIVES</li>
+                </a>
+            </ul>
+        </div>
+      </div>
+          
+      <!-- slider -->
+          
+      <div class="row slider p0">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
+          <div class="col-lg-11 col-md-10 col-sm-10 col-xs-10 Lib-Top p0">برترین فیلم ها به انتخاب کاربران
+          <i class="fa fa-film" aria-hidden="true"></i>
+          </div>
+          <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2 p0">
+            <button type="button" id="PRV" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 slick-prev"><i class="icon-chevron-left" aria-hidden="true"></i></button>
+            <button type="button" id="NTX" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 slick-next"><i class="icon-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 CenterA row-NewP p0">
+              <a href="#">
+                <div class="New-1 p0" data-merge="1">
+                  <img src="img/2.jpg" class="img-responsive" alt="Cinque Terre">
+                </div>
+              </a>
+              <a href="#">
+                 <div class="New-1 p0" data-merge="1">
+  	               <img src="img/D.jpg" class="img-responsive" alt="Cinque Terre">
+                 </div>
+               </a>
+             <a href="#">
+              	<div class="New-1 p0" data-merge="1">
+                      <img src="img/3.jpg" class="img-responsive" alt="Cinque Terre">
+                  </div>
+              </a>
+              <a href="#">
+                <div class="New-1 p0" data-merge="1">
+                  <img src="img/4.jpg" class="img-responsive" alt="Cinque Terre">
+                </div>
+              </a>
+              <a href="#">
+                <div class="New-1 p0" data-merge="1">
+                  <img src="img/5.jpg" class="img-responsive" alt="Cinque Terre">
+                </div>
+              </a>
+              <a href="#">
+                  <div class="New-1 p0" data-merge="1">
+                  <img src="img/1.jpg" class="img-responsive" alt="Cinque Terre">
+                </div>
+              </a>
+              <a href="#">
+                <div class="New-1 p0" data-merge="1">
+                  <img src="img/4.jpg" class="img-responsive" alt="Cinque Terre">
+                 </div>
+              </a>
+              <a href="#">
+                 <div class="New-1 p0" data-merge="1">
+                    <img src="img/5.jpg" class="img-responsive" alt="Cinque Terre">
+                </div>
+              </a>
+              <a href="#">
+                 <div class="New-1 p0" data-merge="1">
+         	          <img src="img/1.jpg" class="img-responsive" alt="Cinque Terre">
+                 </div>
+             </a>
+        </div>
+      </div>
+      
+      
+      <!-- News -->
+              
+      <div class="row news p0">
+        <div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 News p0">
+
+            <article class="col-lg-6 col-md-6 col-sm-12 col-xs-12 L-News text-justify p0">
+              <a  href="#">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-Con p0">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 News-img p0">
+                    <img src="img/58.jpg" class="img-responsive" alt="Cinque Terre">
+                  </div>
+                  <div class="col-lg-8 col-md-8 colsm-8 col-xs-8 News-P p0"><h4>لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                </h4>
+                  <span> 25 آبان 1395
+                </span>
+                  <p class="hidden-xs p0">
+                    بر روی تمام صفحات اصلاحات لازم اعمال شده ، لازم به ذکر هست که بلکس آپ در سایت ساماندهی پایگاه های اینترنتی ثبت شده است و نهایت همکاری را با کارگروه تعیین مصادیق محتوای مجرمانه خواهد داشت ، در صورت گزارش این کارگروه محتویات یا صفحه مورد نظر مسدود یا اصلاح خواهد شد ، لازم به ذکر هست بلکس آپ یک دایرکتوری سینماست که اطلاعات تخصصی سینما را به کاربران ارائه می کند و تابع قوانین جمهوری اسلامی ایران است.
+                  </p>
+                  </div>
+                </div>
+              </a>
+            </article>
+           <article class="col-lg-6 col-md-6 col-sm-12 col-xs-12 L-News p0">
+              <a  href="#">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-Con p0">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 News-img p0">
+                  <img src="img/10-T.jpg" class="img-responsive" alt="Cinque Terre">
+                  </div>
+                 <div class="col-lg-8 col-md-8 colsm-8 col-xs-8 News-P p0"><h4>لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                </h4>
+                  <span> 25 آبان 1395
+                </span>
+                  <p class="hidden-xs p0">
+                    بر روی تمام صفحات اصلاحات لازم اعمال شده ، لازم به ذکر هست که بلکس آپ در سایت ساماندهی پایگاه های اینترنتی ثبت شده است و نهایت همکاری را با کارگروه تعیین مصادیق محتوای مجرمانه خواهد داشت ، در صورت گزارش این کارگروه محتویات یا صفحه مورد نظر مسدود یا اصلاح خواهد شد ، لازم به ذکر هست بلکس آپ یک دایرکتوری سینماست که اطلاعات تخصصی سینما را به کاربران ارائه می کند و تابع قوانین جمهوری اسلامی ایران است.
+                  </p>
+                 </div>
+                </div>
+              </a>
+              
+           </article>
+
+           <a href="#">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 News-00 p0">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                <small>25 آبان 1395</small></div>
+              </div>
+           </a>
+           <a href="#">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 News-00 p0">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                  <small>25 آبان 1395</small></div>
+              </div>
+           </a>
+           <a href="#">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 News-00 p0">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                  <small>25 آبان 1395</small></div>
+              </div>
+           </a>
+           <a href="#">
+              <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs News-00 p0">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+              <small>25 آبان 1395</small></div>
+              </div>
+           </a>
+
+         </div>
+      </div>
+          
+
+      <!-- MENU 2 -->
+
+      <div class="row menu-cate-list">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  slider-menu p0">
+            <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                <a href="#">
+                  <li class="col-lg-2 col-md-2 col-sm-6 col-xs-4 ">آخرین فیلم ها</li>
+                </a>
+                <a href="#">
+                  <li class="col-lg-2 col-md-2 col-sm-6 col-xs-4 ">آخرین سریال ها</li>
+                </a>
+                <a href="#">
+                  <li class="col-lg-2 col-md-2 col-sm-6 col-xs-4 ">فیلم های آموزشی</li>
+                </a>
+                <a href="#">
+                  <li class="col-lg-2 col-md-2 col-sm-6 col-xs-4 ">موزیک ویدیو ها</li>
+                </a>
+                <a href="#">
+                  <li class="col-lg-2 col-md-2 col-sm-6 col-xs-4 ">پر بازدیدترین ها</li>
+                </a>
+                <a href="#">
+                  <li style="border-left: #e1e1e1 1px solid!important;" class="col-lg-2 col-md-2 col-sm-6 col-xs-4 ">پر بازدیدترین ها</li>
+                </a>
+            </ul>
+        </div>
+      </div>
+
+      <!-- week series -->
+
+      <div class="row w-ser p0">
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 column-left p0">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-movie-w p0">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-title p0">
+                      <div style="line-height: 36px;" class="col-lg-11 col-md-11 col-sm-10 col-xs-10 p0">جدول پخش سریال ها در هفته</div>
+                      <div style="text-align: center;" class="col-lg-1 col-md-1 col-sm-2 col-xs-2 p0">
+                          <i style="line-height:36px;font-size: 25px;" class="icon-weekend"></i>
+                      </div>
+                </div>
+                  <div class="col-lg-12 list-table p0">
+                      <ul>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_1"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-1" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                              <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                              <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                              <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                              <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                              <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                          </ul>
+                                      </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                           <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_2"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-2" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                                  <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                                  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                                  <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_3"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-3" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                                  <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                                  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                                  <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_4"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-4" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                                  <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                                  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                                  <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_5"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-5" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                                  <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                                  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                                  <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_6"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-6" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                                  <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                                  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                                  <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="list-table-inner">
+                                  <Button id="li-toggle_7"  style="text-align:center;" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 li-blk-list">مشاهده</Button>
+                                  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 li-blk-list ">
+                                      <i class="icon-circle-o"></i>
+                                      شنبه 19 مهر 1397
+                                  </div>
+                                  <div id="li-today-7" style="display: none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 li-today p0">
+                                      <ul class="p0">
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li-tittle p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">نام سریال</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">شبکه</li>
+                                                  <li class="col-lg-2  col-md-3 col-sm-3 col-xs-3 today-li-inner p0">آخرین قسمت</li>
+                                                  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-7 today-li-inner p0">پوستر</li>
+                                                  <li class="col-lg-1 col-md-2 col-sm-2 hidden-xs today-li-inner p0">دانلود</li>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/22-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/25-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                          <li class="col-lg-12 col-ms-12 col-sm-12 col-xs-12 today-li p0">
+                                              <ul class="p0">
+                                                  <li class="col-lg-3 col-md-3 col-sm-3 col-xs-2 today-li-inner p0">Game Of Thrones</li>
+                                                  <li class="col-lg-2 hidden-md hidden-sm hidden-xs today-li-inner p0">FOX</li>
+                                                  <li class="col-lg-2 col-md-3 col-sm-3 col-xs-3 today-li-inner p0">فصل ۱ قسمت ۲۲</li>
+                                                  <li style="padding-top: 1px!important;" class="col-lg-4 col-md-5 col-sm-5 col-xs-7 today-li-inner p0">
+                                                      <a href="#"><img src="img/24-T.jpg" class="img-responsive"></a></li>
+                                                  <a href=""><li class="col-lg-1 col-md-1 col-sm-1 hidden-xs today-li-inner p0">
+                                                      <i class="icon-download4"></i></li></a>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </li>
+
+                      </ul>
+                  </div>
+
+              </div>
+        </div>
+                  
+        <!-- column-left -->
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 column-right p0">
+            <a href="#"><div class="col-lg-12 col-md-12 col-sm-4 col-xs-12 btn-blocks">
+                <div class="icon-requet-movie"><i class="icon-file-movie-o"></i></div>
+                <div style="margin-top:16px;font-weight: bold;font-size: 16px;">درخواست فیلم</div>
+                <div style="font-size: 12px;">ابتدا جستجو نمایید سپس درخواست دهید</div>
+            </div></a>
+            <a href="#"><div class="col-lg-12 col-md-12 col-sm-4 col-xs-12 btn-blocks">
+                <div class="icon-requet-movie"><i class="icon-box-add"></i></div>
+                <div style="margin-top:16px;font-weight: bold;font-size: 16px;">دانلود آدرس یاب</div>
+                <div style="font-size: 12px;">آدرس یاب هوشمند و سریع با یک کلیک</div>
+            </div></a>
+            <div class="col-lg-12 col-md-12 col-sm-4 col-xs-12 address-site">
+                <div class="row">
+                    <div style="text-align: left;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">www.google.com</div>
+                    <div style="text-align: right;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">آدرس بعدی سایت : </div>
+                </div>
+                <div style="margin-top: 8px;" class="row">
+                    <div style="text-align: left;" class="ccol-lg-6 col-md-6 col-sm-6 col-xs-6">www.google.com</div>
+                    <div style="text-align: right;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">آدرس بعدی سایت : </div>
+
+                </div>
+            </div>
+      </div>
+          </div>
+            
+            
+      <!-- POST -->
+
+      <div class="row Post">
+          <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 column-post p0">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-new p0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-tittle p0">
+              <div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 tittle-post p0"><i class="fa fa-film" aria-hidden="true"></i>دانلود فیلم beauty and the beast 2018
+              </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 post-num">8.5</div>
+                </div>
+                <div class="col-lg-12 col-md-12 col=sm-12 col-xs-12 post-info p0">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-ditails p0">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5 post-img p0">
+                      <img src="img/6.jpg" class="img-responsive" alt="Cinque Terre">
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-7 post-d p0">
+                      <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i> +گروه سنی : 13
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>محصول : امریکا | کانادا
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>ژانر : اکشن | ماجراجویی | فانتزی
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>امتیاز : 9.0
+                      </div>
+                      <div class="col-lg-6 hidden-md hidden-sm hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>فرمت : MKV
+                      </div>
+                      <div class="col-lg-6 col-md-12 col-sm-12 hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>زبان : انگلیسی
+                        </div>
+                        <div class="col-lg-12 hidden-md hidden-sm hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>مدت زمان : 126 دقیقه
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>حجم : 500 | 800 | 1200 مگابایت
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>اطلاعات بیشتر :
+                            <img src="img/IMDB.png">
+                      </div>
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان : David Ayer
+                      </div>
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان : Will Smith, Margot Robbie, Jared Leto
+                      </div>
+                      <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs Post-Ditailed p0">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i> کیفیت : 1080p Web-DL, 720p HDRip, 720p Web-DL, Bluray 1080p, Bluray 720p
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-story p0">خلاصه داستان : بر روی تمام صفحات اصلاحات لازم اعمال شده ، لازم به ذکر هست که بلکس آپ در سایت ساماندهی پایگاه های اینترنتی ثبت شده است و نهایت همکاری را با کارگروه تعیین مصادیق محتوای مجرمانه خواهد داشت ، در صورت گزارش این کارگروه محتویات یا صفحه مورد نظر مسدود یا اصلاح خواهد شد ، لازم به ذکر هست بلکس آپ یک دایرکتوری سینماست که اطلاعات تخصصی سینما را به کاربران ارائه می کند و تابع قوانین جمهوری اسلامی ایران است.
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-post p0">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 awards-post p0">
+                      <img class=img-responsive" src="img/Awards.png">
+                      <p>برنده ۲ جایزه گلدن گلوب و نامزد ۳ جایزه</p>
+                    </div>
+                  </div>
+                  
+                  <a href="#" ><div style="border-right: #4a93d2 1px solid;" class="col-lg-3 col-md-3 colsm-3 col-xs-3 button-post">دانلود
+                  </div></a>
+                  <a href="#"><div class="col-lg-3 col-md-3 colsm-3 col-xs-3 button-post">تریلر
+                  </div></a>
+                  <a href="#"><div class="col-lg-3 col-md-3 colsm-3 col-xs-3 button-post">لیست عوامل
+                  </div></a>
+                  <a href="#"><div  class="col-lg-3 col-md-3 colsm-3 col-xs-3 button-post">امتیاز دهید
+                </div></a>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+            
+            
+            
+      <!-- FOOTER -->
+
+        <footer class="page-footer p0">
+        <div class="footer">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-footer p0">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 watch p0">
+                    <i class="icon-history2"></i>  آخرین دوبله ها 
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 last-dubbing p0">
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 one p0">
+                       <a href=""><img src="img/j.jpg" class="img-responsive" alt=""></a>
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 one p0">
+                       <a href=""><img src="img/shrk%20.jpg" class="img-responsive" alt=""></a>
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 one p0">
+                       <a href=""><img src="img/h.jpg" class="img-responsive" alt=""></a>
+                   </div>
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 one p0">
+                       <a href=""><img src="img/v.jpg" class="img-responsive" alt=""></a>
+                   </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-footer">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sticker p0">
+                    برچسب ها
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tag-footer p0">
+                    <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">دوبله</a></li>
+                        <li><a href="#">فیلم</a></li>
+                        <li><a href="#">دوبله</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">دوبله</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">WEB-DL</a></li>
+                        <li><a href="#"> انکودر : PSA</a></li>
+                        <li><a href="#">BlueRay</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">دوبله</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">WEB-DL</a></li>
+                        <li><a href="#"> انکودر : PSA</a></li>
+                        <li><a href="#">BlueRay</a></li>
+                        <li><a href="#">WEB-DL 480p</a></li>
+                        <li><a href="#">720px265</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">WEB-DL</a></li>
+                        <li><a href="#"> انکودر : PSA</a></li>
+                        <li><a href="#">WEB-DL 480p</a></li>
+                        <li><a href="#">720px265</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">WEB-DL</a></li>
+                        <li><a href="#"> انکودر : PSA</a></li>
+                        <li><a href="#">BlueRay</a></li>
+                        <li><a href="#">WEB-DL 480p</a></li>
+                        <li><a href="#">720px265</a></li>
+                        <li><a href="#">1080p Full HD</a></li>
+                        <li><a href="#">1080p Full HD</a></li>
+                        <li><a href="#">BluRay 1080p 10bit x265</a></li>
+                        <li><a href="#">WEB-DL</a></li>
+                        <li><a href="#"> انکودر : PSA</a></li>
+                        <li><a href="#">BlueRay</a></li>
+                        <li><a href="#">WEB-DL 480p</a></li>
+                        <li><a href="#">720px265</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">WEB-DL</a></li>
+                        <li><a href="#"> انکودر : PSA</a></li>
+                        <li><a href="#">BlueRay</a></li>
+                        <li><a href="#">WEB-DL 480p</a></li>
+                        <li><a href="#">720px265</a></li>
+                        <li><a href="#">1080p Full HD</a></li>
+                        <li><a href="#">1080p Full HD</a></li>
+                        <li><a href="#">BluRay 1080p 10bit x265</a></li>
+                        <li><a href="#">انکودر : MkvCage</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 follow p0">
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
+                        <a href=""> <i class="icon-facebook-f"></i> </a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
+                        <a href=""> <i class="icon-telegram"></i> </a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
+                        <a href=""> <i class="icon-google-plus"></i> </a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
+                        <a href=""> <i class="icon-instagram"></i> </a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
+                        <a href=""> <i class="icon-twitter"></i> </a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
+                        <a href=""> <i class="icon-yahoo2"></i> </a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 copy-right ">
+                      اين وبسايت متعلق به آریا فیلم ميباشد و تمامی حقوق آن محفوظ ميباشد
+                    <span>Copyright © 2011 - 2018</span>
+                </div>
+        </div>
+    </footer>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/toggle.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+
+</body>
+</html>
