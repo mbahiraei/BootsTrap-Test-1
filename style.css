@@ -50,6 +50,9 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration: none !important;
+    color: #313131 !important;
+    outline: none!important;
 }
 
 /* change colours to suit your needs */
@@ -96,12 +99,6 @@ input, select {
 }
 
 
-
-a {
-    text-decoration: none !important;
-    color: #313131 !important;
-    outline: none!important;
-}
 i {
     background: transparent !important;
 }
