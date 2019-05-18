@@ -21,6 +21,8 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    font-family:IRANSans-web !important;
+    background: #fcfdff;
 }
 
 article,aside,details,figcaption,figure,
@@ -109,10 +111,6 @@ button {
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
     user-select: none;          /* Likely future */
-}
-body {
-    font-family:IRANSans-web !important;
-    background: #fcfdff;
 }
 .p0 {
     padding: 0!important;
