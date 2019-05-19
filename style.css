@@ -7,7 +7,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -39,7 +39,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -67,7 +67,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -90,7 +90,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -257,7 +257,6 @@ header{
     margin: 0;
 }
 .main-menu ul li{
-    list-style: none;
     float: left;
     text-align: center;
     border-left: 1px #d6d3d3 solid;
@@ -460,7 +459,6 @@ header{
     margin: 4px 0!important;
 }
 .slider-menu ul {
-    list-style: none;
     height: auto;
     margin: 0;
 }
@@ -502,7 +500,6 @@ header{
 
 .L-News {
   height: auto;
-  list-style: none;
   margin-top: 3px;
 	overflow: hidden;
   background-color: #efefef;
@@ -665,9 +662,6 @@ header{
     margin-top: 3px;
     direction: rtl;
 }
-.side-panel li{
-    list-style: none;
-}
 .side-tittle-1{
     float: left;
     margin-top: 3px;
@@ -775,7 +769,6 @@ header{
     height: auto;
 }
 .list-table ul li{
-    list-style: none;
     margin-bottom: 1px;
 }
 .w-btn-see{
@@ -814,9 +807,6 @@ header{
     border-bottom: 1px solid #a7a7a7;
 }
 .today-li-tittle ul li {
-}
-.today-li ul {
-    list-style: none;
 }
 .today-li ul li {
     float: right;
@@ -902,12 +892,8 @@ header{
 .post-d {
   background-color: #45ff45;
 }
-.post-dul ul{
-  list-style: none;
-}
 .post-d ul li {
   text-align: right;
-  list-style: none;
   margin-top: 3px;
   font-size: 10px;
   padding: 5px 15px!important;
@@ -1051,7 +1037,6 @@ header{
     min-height: 35px!important;
     direction: rtl;
     text-align: center;
-    list-style: none;
     line-height:3;
     font-size: 12px;
     border-left: #e8e8e8 1px solid;
@@ -1128,7 +1113,6 @@ header{
 }
 .dl-link-sound-R {
     float:right;
-    list-style: none;
     margin: 0;
     max-height: 35px!important;
     min-height: 35px!important;
@@ -1217,9 +1201,6 @@ header{
 .suggest-list {
     float: right;
     height: auto;
-}
-.suggest-list ul {
-    list-style: none;
 }
 .sug-m {
     margin-left: 2px !important;
