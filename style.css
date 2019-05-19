@@ -639,7 +639,7 @@ body {
     font-weight: bold;
     background: #c5c5c2;
 }
-.side-tittle-1 span{
+.side-tittle-1 h3{
     line-height: 24px;
 }
 .side-tittle-1 i{
@@ -676,6 +676,7 @@ body {
 }
 .side-tittle-collapse a{
     padding: 5px !important;
+    display: block;
 }
 .side-tittle-collapse span{
     font-size: 12px;

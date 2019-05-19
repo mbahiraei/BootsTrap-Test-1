@@ -18,8 +18,8 @@
     <link rel="stylesheet" type="text/css" href="css/pace.css">
     <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
     <!-- SCRIPT -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="js/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
     <script src="js/toggler.js"></script>
     <script src="js/toggle.js"></script>
 </head>
@@ -88,7 +88,9 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menu p0">
                 <div class="hidden-lg hidden-md col-sm-3 col-xs-1 empty-1 p0"></div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10 search p0">
-                        <input class="col-lg-10 col-md-10 col-sm-10 col-xs-10 input p0" type="text" placeholder=" ...جستجو  ">
+                        <input class="col-lg-10 col-md-10 col-sm-10 col-xs-10 input p0" type="text" placeholder=" ...جستجو  "
+                        onfocus="this.placeholder=''"
+                        onblur="this.placeholder=' ...جستجو  '">
                         <button class="col-lg-2 col-md-2 col-sm-2 col-xs-2 button" type="submit">
                     	<i class="icon-search7"></i>
                         </button>
@@ -1127,14 +1129,15 @@
                         </div>
                     </div>
                 </div>
-                <div id="panel" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-panel p0">
+                <aside id="panel" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-panel p0">
+                    <section>
                     <div id="panel-movie" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-movie p0">
                         <div class="col-lg-12 col-md-12 hidden-sm hidden-xs side-tittle-1 p0">
-                            <span>آرشیو فیلم ها</span>
+                            <h3>آرشیو فیلم ها</h3>
                             <i class="icon-file-movie-o"></i>
                         </div>
                         <div id="movie-archive" class="hidden-lg hidden-md col-sm-12 col-xs-12 side-tittle-1 p0">
-                            <span>آرشیو فیلم ها</span>
+                            <h3>آرشیو فیلم ها</h3>
                             <i class="icon-file-movie-o"></i>
                         </div>
                         <ul id="side-collapse-movie" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-movie p0">
@@ -1843,14 +1846,15 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </div></section>
+                    <section>
                     <div id="panel-series" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-series p0">
                         <div class="col-lg-12 col-md-12 hidden-sm hidden-xs side-tittle-1 p0">
-                            <span>آرشیو سریال ها</span>
+                            <h3>آرشیو سریال ها</h3>
                             <i class="icon-tv2"></i>
                         </div>
                         <div id="series-archive" class="hidden-lg hidden-md col-sm-12 col-xs-12 side-tittle-1 p0">
-                            <span>آرشیو سریال ها</span>
+                            <h3>آرشیو سریال ها</h3>
                             <i class="icon-tv2"></i>
                         </div>
                         <ul id="side-collapse-series" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-series p0">
@@ -2432,8 +2436,8 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </div></section>
+                </aside>
             </div>
 
         </div>
