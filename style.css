@@ -17,9 +17,19 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-}@font-face {
+}
+
+
+@font-face {
     font-family: 'Iransans';
     src: url('IRANSansWeb(FaNum)_Bold.woff2') format:('woff2');
+}
+
+body {
+    font:12px Tahoma;
+    line-height:1;
+    font-family:IRANSans-web !important;
+    background: #fcfdff;
 }
 
 article,aside,details,figcaption,figure,
@@ -39,6 +49,18 @@ blockquote:before, blockquote:after,
 q:before, q:after {
     content:'';
     content:none;
+}
+
+a {
+    text-decoration: none !important;
+    color: #313131 !important;
+    outline: none!important;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    outline: none!important;
 }
 
 /* change colours to suit your needs */
@@ -89,16 +111,6 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none !important;
-    color: #313131 !important;
-    outline: none!important;
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
 i {
     background: transparent !important;
 }
@@ -109,16 +121,11 @@ button {
     -ms-user-select: none;      /* IE 10+ */
     user-select: none;          /* Likely future */
 }
-body {
-    font:12px Tahoma;
-    background: #fcfdff;
-    line-height:1;
-}
 .p0 {
     padding: 0!important;
 }
 /* -- header --*/
-.header{
+header{
     height: auto;
     background-color: #eaeaea;
 }
