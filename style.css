@@ -19,7 +19,14 @@ time, mark, audio, video {
     background:transparent;
 }
 
+
+@font-face {
+    font-family: 'Iransans';
+    src: url('IRANSansWeb(FaNum)_Bold.woff2') format:('woff2');
+}
+
 body {
+    font:12px Tahoma;
     line-height:1;
     font-family: IRANSans-web, serif !important;
     background: #fcfdff;
@@ -56,6 +63,17 @@ q:before, q:after {
     content:none;
 }
 
+a {
+    text-decoration: none !important;
+    color: #313131 !important;
+    outline: none!important;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    outline: none!important;
+}
 
 /* change colours to suit your needs */
 ins {
@@ -113,6 +131,10 @@ input:focus{
     outline: 0;
 }
 
+
+li {
+    list-style: none;
+}
 
 i {
     background: transparent !important;
@@ -178,15 +200,23 @@ header{
 }
 .menu-top{
     float: right;
-    font-size: 10px;
+    display: block;
+    text-align: center;
+    font-size: 10px 'Iransans',Tahoma  ;
     height: auto;
     margin-top: 25px;
     line-height: 3;
 }
 .menu-top ul li{
+    display: inline-block;
     float: right;
     height: auto;
     border-left: #d6d3d3 1px solid;
+    color: #fdfdfd;
+}
+.menu-top ul li a {
+    display: block;
+    color: #fdfdfd;
 }
 .menu-top ul li:last-child{
     border: none;
@@ -463,6 +493,8 @@ header{
     margin: 0;
 }
 .slider-menu ul li {
+    display: inline-block;
+    list-style: none;
     text-align: center;
     font-size: 11px;
     float: right;
@@ -472,6 +504,7 @@ header{
     border-bottom: #e1e1e1 1px solid;
 }
 .slider-menu-in{
+    display: block;
     padding: 10px 0;
 }
 .slider-menu-in:hover {
@@ -668,7 +701,7 @@ header{
     font-weight: bold;
     background: #c5c5c2;
 }
-.side-tittle-1 span{
+.side-tittle-1 h3{
     line-height: 24px;
 }
 .side-tittle-1 i{
@@ -705,6 +738,7 @@ header{
 }
 .side-tittle-collapse a{
     padding: 5px !important;
+    display: block;
 }
 .side-tittle-collapse span{
     font-size: 12px;
@@ -831,7 +865,11 @@ header{
     filter: gray(0%);
 }
 
-/* --------------------------- End week series ---------------------------------*/
+/* ------------ End week series ---------------*/
+
+
+
+
 /* ------------ Post -------------------*/
 .column-post {
   float: left;
@@ -850,11 +888,11 @@ header{
 .tittle-post {
   direction: rtl;
   float: right;
-  padding: 10px 20px!important;
+  font: 18px 'Iransans','Myriad Pro'!important;
+  padding: 5px 20px!important;
 }
 .tittle-post i {
     padding-left: 10px;
-    font-size: 18px;
     line-height: 20px;
 }
 .Blank-Div {
@@ -899,6 +937,7 @@ header{
   padding: 5px 15px!important;
 }
 .post-story {
+    text-align: justify;
   background-color: #fafafa;
   direction: rtl;
   padding: 10px!important;
@@ -963,13 +1002,39 @@ header{
   padding: 5px 15px!important;
   margin: 0!important;
 }
+
+.post {
+    float: right;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+    background: #2ecc71;
+    padding: 5px;
+    float: right;
+    color: #fdfdfd!important;
+    margin: 2px;
+}
+.wp-pagenavi span.current {
+    background: #34495e;
+}
+
 /* -------- End Post ---------*/
+
+
+
+
+
 /*--- artists --*/
 .artists-img{
     left: 4%;
     margin: 2px 0 3px 0;
 }
 /*--- artists --*/
+
+
+
+
+
+
 
 /* --------------------------- Singel Post ---------------------------------*/
 .download-section {
