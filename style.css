@@ -151,21 +151,20 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.1s 0.1s ease;
+    opacity: 0;
+}
 ::placeholder{
-    color:#e2d4e6 !important;
-    font-size:80%;
+    color:#232323 !important;
+    font-size:100%;
 }
 :-ms-input-placeholder{
-    color:#e2d4e6 !important;
+    color:#232323 !important;
 }
 ::-ms-input-placeholder{
-    color:#e2d4e6 !important;
+    color: #232323 !important;
 }
-section{
-    clear: both;
-    margin:0 auto!important;
-}
-
 a {
     margin:0;
     padding:0;
