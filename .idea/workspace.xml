@@ -154,76 +154,46 @@
     <session id="-2037536351">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
+          <entry key="css" value="16" />
+          <entry key="html" value="6" />
+          <entry key="js" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
+          <entry key="CSS" value="16" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="42" />
-          <entry key="html" value="1" />
+          <entry key="css" value="617" />
+          <entry key="html" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="42" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="617" />
+          <entry key="HTML" value="206" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60287446">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13073">
-                  <caret line="769" selection-start-line="769" selection-end-line="769" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Desktop/luna/Stars/style - page2.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="157" selection-start-line="153" selection-end-line="157" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,6 +205,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>inp</find>
+      <find>text-align</find>
+      <find>text-decoration: none</find>
+      <find>text-decoration</find>
+      <find>h4</find>
+      <find>.today-li ul li</find>
+      <find>table-tittle-i</find>
+      <find>.footer-tittle-L</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -249,6 +226,10 @@
         <option value="$USER_HOME$/Public/Downloads/AriaM(new)/index.html" />
         <option value="$USER_HOME$/Public/Downloads/AriaM(new)/style.css" />
         <option value="$PROJECT_DIR$/single.html" />
+        <option value="$USER_HOME$/Desktop/luna/Stars/index.html" />
+        <option value="$USER_HOME$/Desktop/luna/Stars/style.css" />
+        <option value="$USER_HOME$/Desktop/luna/Stars/index2.html" />
+        <option value="$USER_HOME$/Desktop/luna/Stars/style - page2.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
@@ -261,8 +242,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="542" />
-    <option name="y" value="54" />
+    <option name="x" value="11" />
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -278,7 +258,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -343,11 +323,13 @@
       <workItem from="1558304438098" duration="22000" />
       <workItem from="1558352258579" duration="430000" />
       <workItem from="1558352909473" duration="609000" />
+      <workItem from="1558354405360" duration="7368000" />
+      <workItem from="1558390662734" duration="6583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85877000" />
+    <option name="totallyTimeSpent" value="99828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +342,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -397,12 +378,12 @@
     <entry file="file://$PROJECT_DIR$/../Aria_Movie/index.html" />
     <entry file="file://$PROJECT_DIR$/js/owl.js" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="47203" selection-start-column="47203" selection-end-column="47203" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$USER_HOME$/Public/Downloads/AriaM(new)/index.html" />
     <entry file="file://$USER_HOME$/Public/Downloads/AriaM(new)/style.css" />
@@ -413,31 +394,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/luna/Stars/style.css">
+    <entry file="file://$USER_HOME$/Desktop/luna/Stars/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" selection-start-line="181" selection-end-line="185" />
+        <state relative-caret-position="-102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$USER_HOME$/Desktop/luna/Stars/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13073">
-          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        <state relative-caret-position="324">
+          <caret line="215" column="35" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/luna/Stars/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/luna/Stars/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:////DESKTOP-1BG7M41/Users/Public/Luna/Stars/index2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:////DESKTOP-1BG7M41/Users/Public/Luna/Stars/style - page2.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/luna/Stars/style - page2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="157" selection-start-line="153" selection-end-line="157" />
+        <state relative-caret-position="136">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/luna/Stars/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="411" column="83" selection-start-line="411" selection-start-column="83" selection-end-line="411" selection-end-column="83" />
+          <folding>
+            <element signature="n#ul#0;n#nav#0;n#section#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
