@@ -1,6 +1,6 @@
 
         <!-- slider -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider p0">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider p0">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
           <div class="col-lg-11 col-md-10 col-sm-10 col-xs-10 Lib-Top p0">برترین فیلم ها به انتخاب کاربران
           <i class="fa fa-film" aria-hidden="true"></i>
@@ -11,24 +11,21 @@
           </div>
         </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 CenterA row-NewP p0">
+<?php
+            $q=new WP_Query(
+                array("category_name"=>"slider_post","posts_per_page"=>8)
+            );
+            while($q->have_posts())
+            {
+                $q->the_post();
+                ?>
               <div class="New-1 p0" data-merge="1">
-                  <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/2.jpg" class="img-responsive" alt="Cinque Terre">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                            <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                               <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                               <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                            </div>
-                        </div>
-                    </a>
-              </div>
-              <div class="New-1 p0" data-merge="1">
-                     <a href="#">
-                         <img src="<?php echo get_template_directory_uri(); ?>/img/D.jpg" class="img-responsive" alt="Cinque Terre">
+                     <a href="
+                      <?php the_permalink(); ?>"><div class="New-1-img">  
+                          <?php the_post_thumbnail(); ?></div>
                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
+                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">
+                             <?php the_title(); ?></div>
                              <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
                              <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
                                  <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
@@ -37,96 +34,10 @@
                          </div>
                      </a>
                  </div>
-              <div class="New-1 p0" data-merge="1">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/3.jpg" class="img-responsive" alt="Cinque Terre">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                            <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-              <div class="New-1 p0" data-merge="1">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/4.jpg" class="img-responsive" alt="Cinque Terre">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                            <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-              <div class="New-1 p0" data-merge="1">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/5.jpg" class="img-responsive" alt="Cinque Terre">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                            <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-              <div class="New-1 p0" data-merge="1">
-                      <a href="#">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" class="img-responsive" alt="Cinque Terre">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                              <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                              <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                  <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                  <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-              <div class="New-1 p0" data-merge="1">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/4.jpg" class="img-responsive" alt="Cinque Terre">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                            <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                            </div>
-                        </div>
-                    </a>
-                 </div>
-              <div class="New-1 p0" data-merge="1">
-                     <a href="#">
-                         <img src="<?php echo get_template_directory_uri(); ?>/img/5.jpg" class="img-responsive" alt="Cinque Terre">
-                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                             <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                 <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                 <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                             </div>
-                         </div>
-                     </a>
-                 </div>
-              <div class="New-1 p0" data-merge="1">
-                     <a href="#">
-                         <img src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" class="img-responsive" alt="Cinque Terre">
-                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-caption p0">
-                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 s-c-1 p0">Fantastic Beasts and Where to Find Them</div>
-                             <span class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p0"></span>
-                             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 s-c-2 p0">
-                                 <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs s-c-2-1 p0">8.3</div>
-                                 <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 s-c-2-2 p0">1080 web.rip</div>
-                             </div>
-                         </div>
-                     </a>
-                 </div>
+        <?php 
+    }
+
+?>
+                     
           </div>
         </div>

@@ -326,7 +326,8 @@ header{
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
 }
-.New-1 img {
+.New-1-img {
+    height: 280px;
     display: block;
     position: relative;
 }
