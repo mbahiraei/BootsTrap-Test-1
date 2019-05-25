@@ -18,6 +18,8 @@
                                 </a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 last-dubbing p0">
+                                
+                                
                                 <div id="last-dubbing1" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-last-dubbing p0">
@@ -28,6 +30,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                                 <div id="last-dubbing2" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-last-dubbing p0">
@@ -38,6 +42,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                                 <div id="last-dubbing3" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-last-dubbing p0">
@@ -48,6 +54,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                                 <div id="h-xs1" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 footer-last-dubbing p0">
@@ -58,6 +66,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-footer p0">
@@ -83,6 +93,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                                 <div id="last-dubbing5" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-last-dubbing p0">
@@ -93,6 +105,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                                 <div id="last-dubbing6" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-last-dubbing p0">
@@ -103,6 +117,8 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                                 <div id="h-xs2" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 New-1 p0">
                                     <a href="#" title="Fantastic Beasts دوبله فیلم">
                                         <div class="col-lg-12 col-md-12 col-sm-12 footer-last-dubbing p0">
@@ -112,9 +128,13 @@
                                         </div>
                                     </a>
                                 </div>
+                                
+                                
                             </div>
                         </div>
                     </div>
+                    
+                    
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 down-footer p0">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 following p0">
                             <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 social-network p0">
