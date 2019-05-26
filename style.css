@@ -300,7 +300,6 @@ header{
 }
 .New-1 {
     float:left;
-    height:100%;
     overflow:hidden;
     position:relative;
     cursor:default;
@@ -308,7 +307,7 @@ header{
 .slider-caption{
     height:100%;
     width: 100%;
-    position:absolute;
+    position:absolute !important;
     overflow:hidden;
     top:-10%;
     left:0;
@@ -327,7 +326,6 @@ header{
     transition-delay: 0s;
 }
 .New-1-img {
-    height: 280px;
     display: block;
     position: relative;
 }

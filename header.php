@@ -25,6 +25,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/toggle.js"></script>
     
     <?php wp_head(); ?>
+    <?php wp_enqueue_script("jquery"); wp_head(''); ?>
 </head>
 <body>
         <!-- header -->
