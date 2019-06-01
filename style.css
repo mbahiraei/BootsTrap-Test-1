@@ -199,44 +199,48 @@ header{
     margin: 0 auto;
 }
 .menu-top{
-    float: right;
+    float: right!important;
     height: auto;
-    margin-top: 25px;
-    line-height: 3;
+    margin-top: 3%;
+    line-height: 2;
 }
 .menu-top ul li{
     float: right;
     border-left: #d6d3d3 1px solid;
-    color: #fdfdfd;
+    color: #5c6672!important;
+    font-size: 80%;
+    transition: all 0.2s ease;
 }
 .menu-top ul li:last-child{
     border: none;
 }
-.top-menu-list{
-    font-size: 10px;
-    color: #5c6672;
-    height: auto;
-	transition: all 0.2s ease;
-}
-.top-menu-list:hover{
-    color: #fd5252;
+.menu-top ul li:hover a{
+    color: #fd5252 !important;
     transition: all 0.2s ease;
 }
 .menu-top i{
-    font-size:20px;
+    font-size:150%;
 }
 
 /* ---------------------- menu --*/
 
-.menu{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.menu_sticky{
+    z-index: 55;
+    padding: 1% !important;
+    transition: all 0.3s cubic-bezier(0, -0.08, 1, -0.01);
+}
+.sticky {
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    transition: all 0.3s cubic-bezier(0, -0.08, 1, -0.01);
 }
 .empty-1{
     float: right;
 }
 .search{
-    float: right;
     background: transparent;
 }
 .search input{
@@ -270,27 +274,36 @@ header{
     transition: all 0.4s ease;
 }
 .main-menu{
-    float: left;
     height: auto;
-    padding-top: 2px!important;
 }
 .main-menu ul li{
-    float: left;
+    float: right;
+    width: 15%;
+    line-height: 2;
     border-left: 1px #d6d3d3 solid;
-    font-size: 11px;
+    font-size: 75%;
+    transition: all 0.4s ease;
 }
-.main-menu-inner{
-    padding: 10px 0 !important;
-	    transition: all 0.4s ease;
-}
-.main-menu ul li:first-child{
+.main-menu ul li:last-child{
     border-left: none;
 }
-.main-menu-inner:hover{
-    color: #fff;
+.main-menu ul li:hover{
     background-color: #fd5252;
     transition: all 0.4s ease;
 }
+.main-menu ul li a {
+    display: block;
+    color: #000;
+    line-height: 3;
+    font-weight: bold;
+    padding: 1%;
+    transition: all 0.4s ease;
+}
+.main-menu a:hover{
+    color: #fff!important;
+    transition: all 0.4s ease;
+}
+
 /* --------------------------- slider -------------------------------------*/
 
 .row-NewP {
@@ -300,6 +313,7 @@ header{
 }
 .New-1 {
     float:left;
+    height:100%;
     overflow:hidden;
     position:relative;
     cursor:default;
@@ -307,7 +321,7 @@ header{
 .slider-caption{
     height:100%;
     width: 100%;
-    position:absolute !important;
+    position:absolute;
     overflow:hidden;
     top:-10%;
     left:0;
@@ -326,6 +340,7 @@ header{
     transition-delay: 0s;
 }
 .New-1-img {
+    height: 280px;
     display: block;
     position: relative;
 }
@@ -491,10 +506,6 @@ header{
     float: right;
 }
 
-/* --------------------------- End slider ---------------------------------*/
-
-
-
 /* --------------------------- News -------------------------------------*/
 .News-All{
     background-color: #fd5252;
@@ -571,12 +582,12 @@ header{
 }
 .News-img {
 	float: right!important;
-	position: absolute;
 	padding-left: 5px!important;
 }
-.New-img img {
-	height: 100%;
-	margin: auto 0;
+.News-img img{
+    max-height: 115px;
+    min-height: 100px;
+    width: 100%;
 }
 .News {
 	margin-top:3px!important;
@@ -622,7 +633,7 @@ header{
 .btn-blocks-request{
     font-weight: bold;
     line-height: 3;
-    font-size: 16px;
+    font-size: 100%;
 }
 .btn-blocks-see{
     font-size: 12px;

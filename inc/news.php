@@ -27,8 +27,8 @@
                     <?php the_post_thumbnail(); ?>
                   </div>
                   <div class="col-lg-8 col-md-8 colsm-8 col-xs-8 News-P p0">
-                      <h4>
-                      <?php the_title(); ?></h4>
+                      <h2>
+                      <?php the_title(); ?></h2>
                   <span> 
                     <?php echo get_the_date("y,m,d"); ?>
                 </span>

@@ -25,9 +25,27 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/toggle.js"></script>
     
     <?php wp_head(); ?>
-    <?php wp_enqueue_script("jquery"); wp_head(''); ?>
 </head>
 <body>
+<!-- menu -->
+<section>
+    <div id="menu_sticky" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menu_sticky p0">
+        <div class="hidden-lg hidden-md col-sm-3 col-xs-1 empty-1 p0"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10 search p0">
+            <form action="" method="">
+                <input class="col-lg-10 col-md-10 col-sm-10 col-xs-10 input p0" type="text" placeholder=" ...جستجو  ">
+                <button class="col-lg-2 col-md-2 col-sm-2 col-xs-2" type="submit">
+                    <i class="icon-search7"></i>
+                </button>
+            </form>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 main-menu p0">
+            <?php wp_nav_menu( array( 'theme_location' => 'top_menu', 'container' => '' ) );
+            ?>
+        </div>
+    </div>
+</section>
+
         <!-- header -->
         <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header p0">
             <div class="container p0">
@@ -42,44 +60,38 @@
 
                     <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
                         <a href="#">
-                            <div class="top-menu-list">
                                 <i class="icon-home32"></i><br>
-                                صفحه نخست</div>
+                                صفحه نخست
                         </a>
                     </li>
                     <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
                  		<a href="#">
-                   		<div class="top-menu-list">
                      		<i class="icon-vimeo2"></i><br>
-                   				VIP اشتراک</div>
+                   				VIP اشتراک
                  		</a>
                		</li>
                		<li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
                    		<a href="#">
-                     		<div class="top-menu-list">
                        		<i class="icon-enter"></i><br>
-                            پنل کاربری</div>
+                            پنل کاربری
                    		</a>
                		</li>
                		<li class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
                    		<a href="#">
-                     		<div class="top-menu-list">
                      			<i class="icon-clipboard2"></i><br>
-                   	      ثبت نام</div>
+                   	      ثبت نام
                    		</a>
                		</li>
                		<li  class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
                    		<a href="#">
-                     		<div class="top-menu-list">
                      			<i class="icon-download"></i><br>
-                                آدرس یاب</div>
+                                آدرس یاب
                    		</a>
                		</li>
                		<li  class="col-lg-2 col-md-2 col-sm-2 col-xs-2 p0">
                    		<a href="#">
-                     		<div class="top-menu-list">
                      			<i class="icon-users3"></i><br>
-             				       تماس با ما</div>
+             				       تماس با ما
                    		</a>
                		</li>
            		</ul>
@@ -90,63 +102,3 @@
     
     
         <div class="container">
-        <!-- menu -->
-            <section id="menu">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menu p0">
-                <div class="hidden-lg hidden-md col-sm-3 col-xs-1 empty-1 p0"></div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10 search p0">
-				<form action="" method="">
-                        <input class="col-lg-10 col-md-10 col-sm-10 col-xs-10 input p0" type="text" placeholder=" ...جستجو  ">
-                        <button class="col-lg-2 col-md-2 col-sm-2 col-xs-2" type="submit">
-                    	<i class="icon-search7"></i>
-                        </button>
-				</form>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 main-menu p0">
-                    <ul>
-                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-menu-inner p0">
-                              HOME
-                          </div>
-                      </a>
-                  </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-menu-inner p0">
-                              FROUM
-                          </div>
-                      </a>
-                  </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-menu-inner p0">
-                              MEMBERSHIP
-                          </div>
-                      </a>
-                  </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 main-menu-out p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-menu-inner p0">
-                              MOVIE
-                          </div>
-                      </a>
-                  </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-menu-inner p0">
-                              TV SEREIS
-                          </div>
-                      </a>
-                  </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-menu-inner p0">
-                              ARCHIVES
-                          </div>
-                      </a>
-                  </li>
-                    </ul>
-                </div>
-            </div>
-            </section>

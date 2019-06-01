@@ -34,11 +34,11 @@
                     <section>
                     <div id="panel-movie" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-movie p0">
                         <div class="col-lg-12 col-md-12 hidden-sm hidden-xs side-tittle-1 p0">
-                            <h3>آرشیو فیلم ها</h3>
+                           آرشیو فیلم ها
                             <i class="icon-file-movie-o"></i>
                         </div>
                         <div id="movie-archive" class="hidden-lg hidden-md col-sm-12 col-xs-12 side-tittle-1 p0">
-                            <h3>آرشیو فیلم ها</h3>
+                            آرشیو فیلم ها
                             <i class="icon-file-movie-o"></i>
                         </div>
                         <ul id="side-collapse-movie" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-movie p0">
@@ -751,11 +751,11 @@
                     <section>
                     <div id="panel-series" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-series p0">
                         <div class="col-lg-12 col-md-12 hidden-sm hidden-xs side-tittle-1 p0">
-                            <h3>آرشیو سریال ها</h3>
+                            آرشیو سریال ها
                             <i class="icon-tv2"></i>
                         </div>
                         <div id="series-archive" class="hidden-lg hidden-md col-sm-12 col-xs-12 side-tittle-1 p0">
-                            <h3>آرشیو سریال ها</h3>
+                        آرشیو سریال ها
                             <i class="icon-tv2"></i>
                         </div>
                         <ul id="side-collapse-series" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-series p0">

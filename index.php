@@ -1,57 +1,7 @@
 <?php get_header(); ?>
 <?php include("inc/slider.php"); ?>
 <?php include("inc/news.php"); ?>
-        <!-- MENU 2 -->
-            <section id="menu-cate-list">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menu-cate-list p0">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  slider-menu p0">
-            <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
-                  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-menu-in">
-                              آخرین فیلم ها
-                          </div>
-                      </a>
-                  </li>
-                  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-menu-in">
-                              آخرین فیلم ها
-                          </div>
-                      </a>
-                  </li>
-                  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-4 slider-menu-br p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-menu-in">
-                              آخرین فیلم ها
-                          </div>
-                      </a>
-                  </li>
-                  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-menu-in">
-                              آخرین فیلم ها
-                          </div>
-                      </a>
-                  </li>
-                  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-menu-in">
-                              آخرین فیلم ها
-                          </div>
-                      </a>
-                  </li>
-                  <li style="border-left: #e1e1e1 1px solid!important;" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 p0">
-                      <a href="#">
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-menu-in">
-                              آخرین فیلم ها
-                          </div>
-                      </a>
-                  </li>
-            </ul>
-        </div>
-      </div>
-            </section>
+
         <!-- column-left -->
             <section id="column-left">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 column-left p0">
@@ -197,6 +147,22 @@
             DELEGATE_CLICK: false
         });
 </script>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("menu_sticky");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+
+</script>
+
 
 </body>
 </html>
